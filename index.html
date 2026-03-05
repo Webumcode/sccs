@@ -1,0 +1,932 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novák Malby & Nátěry | Profesionální malířské práce Praha a Středočeský kraj</title>
+    <meta name="description" content="Profesionální malby a nátěry bez starostí. 15+ let zkušeností, rychlá realizace, precizní práce a férové ceny. Praha a Středočeský kraj.">
+    <meta name="keywords" content="malíř, natěrač, malování bytů, nátěry fasád, Praha, Středočeský kraj, malířské práce">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Novák Malby & Nátěry | Profesionální malířské práce">
+    <meta property="og:description" content="Rychlá realizace, precizní práce a férové ceny. Získejte nezávaznou kalkulaci.">
+    <meta property="og:type" content="website">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Novák Malby & Nátěry",
+        "description": "Profesionální malířské a natěračské práce v Praze a Středočeském kraji",
+        "url": "https://novakmalby.cz",
+        "telephone": "+420777123456",
+        "email": "info@novakmalby.cz",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Praha",
+            "addressRegion": "Středočeský kraj",
+            "addressCountry": "CZ"
+        },
+        "areaServed": ["Praha", "Středočeský kraj"],
+        "priceRange": "$$",
+        "openingHours": "Mo-Fr 08:00-18:00"
+    }
+    </script>
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="#" class="logo">
+                    <i class="fas fa-paint-roller"></i>
+                    <span>Novák Malby & Nátěry</span>
+                </a>
+                
+                <button class="nav-toggle" id="navToggle" aria-label="Otevřít menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#sluzby">Služby</a></li>
+                    <li><a href="#realizace">Realizace</a></li>
+                    <li><a href="#reference">Reference</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#kontakt" class="btn btn-primary">Kontakt</a></li>
+                </ul>
+                
+                <a href="tel:+420777123456" class="phone-header">
+                    <i class="fas fa-phone"></i>
+                    <span>777 123 456</span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <span class="hero-badge">
+                    <i class="fas fa-map-marker-alt"></i>
+                    Praha a Středočeský kraj
+                </span>
+                <h1 class="hero-title">Profesionální malby a nátěry bez starostí</h1>
+                <p class="hero-subtitle">Rychlá realizace, precizní práce a férové ceny. Specializujeme se na malování interiérů, nátěry fasád a renovace všech povrchů.</p>
+                <div class="hero-buttons">
+                    <a href="#kontakt" class="btn btn-primary btn-large">
+                        <i class="fas fa-calculator"></i>
+                        Nezávazná poptávka
+                    </a>
+                    <a href="tel:+420777123456" class="btn btn-secondary btn-large">
+                        <i class="fas fa-phone"></i>
+                        Zavolat nyní
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">15+</span>
+                        <span class="stat-label">let zkušeností</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">realizací</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">spokojených klientů</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services" id="sluzby">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Naše služby</span>
+                <h2 class="section-title">Kompletní malířské a natěračské práce</h2>
+                <p class="section-subtitle">Od malých bytů po velké komerční projekty – postaráme se o každý detail</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Malování bytů a domů</h3>
+                    <p>Profesionální malování interiérů bytů, rodinných domů a rekreačních objektů. Používáme kvalitní barvy pro dlouhotrvající výsledek.</p>
+                    <a href="#kontakt" class="service-link">Zjistit více <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Komerční prostory</h3>
+                    <p>Malování kanceláří, obchodů, hotelů a dalších komerčních prostor. Flexibilní termíny včetně víkendů pro minimální omezení provozu.</p>
+                    <a href="#kontakt" class="service-link">Zjistit více <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-door-open"></i>
+                    </div>
+                    <h3>Nátěry dveří a oken</h3>
+                    <p>Renovace a nátěry dveří, zárubní, oken a dalších dřevěných prvků. Odstranění starých nátěrů a precizní nové provedení.</p>
+                    <a href="#kontakt" class="service-link">Zjistit více <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-warehouse"></i>
+                    </div>
+                    <h3>Nátěry fasád</h3>
+                    <p>Ochranné a dekorační nátěry fasád rodinných domů a bytovek. Použití kvalitních fasádních barev s dlouhou životností.</p>
+                    <a href="#kontakt" class="service-link">Zjistit více <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Opravy a příprava</h3>
+                    <p>Opravy prasklin, štukování, broušení a kompletní příprava podkladů před malováním pro dokonalý výsledek.</p>
+                    <a href="#kontakt" class="service-link">Zjistit více <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Speciální nátěry</h3>
+                    <p>Penetrace, protiplísňové nátěry, omyvatelné barvy a speciální technologie pro náročné prostředí.</p>
+                    <a href="#kontakt" class="service-link">Zjistit více <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section class="section why-us">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Proč my</span>
+                <h2 class="section-title">Proč si vybrat právě nás?</h2>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>15+ let zkušeností</h3>
+                    <p>Dlouholetá praxe v oboru garantuje profesionální přístup a kvalitní výsledek každé zakázky.</p>
+                </div>
+                
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Rychlé termíny</h3>
+                    <p>Dodržujeme dohodnuté termíny a často jsme schopni realizovat zakázky do několika dní od poptávky.</p>
+                </div>
+                
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-broom"></i>
+                    </div>
+                    <h3>Čistá práce</h3>
+                    <p>Důkladně zakrýváme a po sobě vždy uklidíme. Respektujeme váš prostor jako svůj vlastní.</p>
+                </div>
+                
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Záruka kvality</h3>
+                    <p>Na veškeré práce poskytujeme záruku. Používáme ověřené materiály od renomovaných výrobců.</p>
+                </div>
+                
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                    </div>
+                    <h3>Transparentní ceny</h3>
+                    <p>Žádné skryté poplatky. Předem dostanete detailní rozpočet s jasným rozpisem všech položek.</p>
+                </div>
+                
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-check"></i>
+                    </div>
+                    <h3>Individuální přístup</h3>
+                    <p>Každý projekt je jedinečný. Poradíme s výběrem barev i technologií přesně podle vašich potřeb.</p>
+                </div>
+            </div>
+            
+            <div class="brands-section">
+                <p>Používáme barvy od ověřených výrobců:</p>
+                <div class="brands-logos">
+                    <div class="brand-logo">Benjamin Moore</div>
+                    <div class="brand-logo">PPG</div>
+                    <div class="brand-logo">Caparol</div>
+                    <div class="brand-logo">Jupol</div>
+                    <div class="brand-logo">Primalex</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="section process">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Jak to funguje</span>
+                <h2 class="section-title">Jednoduchý proces spolupráce</h2>
+            </div>
+            
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <div class="step-icon"><i class="fas fa-phone-alt"></i></div>
+                        <h3>Kontaktujete nás</h3>
+                        <p>Zavoláte nebo vyplníte formulář. Popíšete nám váš projekt a požadavky.</p>
+                    </div>
+                </div>
+                
+                <div class="process-arrow"><i class="fas fa-chevron-right"></i></div>
+                
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <div class="step-icon"><i class="fas fa-ruler-combined"></i></div>
+                        <h3>Zaměření zdarma</h3>
+                        <p>Přijedeme na osobní prohlídku, zaměříme plochy a posoudíme stav podkladů.</p>
+                    </div>
+                </div>
+                
+                <div class="process-arrow"><i class="fas fa-chevron-right"></i></div>
+                
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <div class="step-icon"><i class="fas fa-file-signature"></i></div>
+                        <h3>Cenová nabídka</h3>
+                        <p>Do 24 hodin obdržíte detailní nezávaznou kalkulaci s termínem realizace.</p>
+                    </div>
+                </div>
+                
+                <div class="process-arrow"><i class="fas fa-chevron-right"></i></div>
+                
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <div class="step-icon"><i class="fas fa-paint-roller"></i></div>
+                        <h3>Realizace</h3>
+                        <p>Po odsouhlasení termínu a ceny realizujeme zakázku profesionálně a včas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section gallery" id="realizace">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Naše práce</span>
+                <h2 class="section-title">Realizace před a po</h2>
+                <p class="section-subtitle">Podívejte se na ukázky našich dokončených projektů</p>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item" data-project="byt-praha">
+                    <div class="gallery-images">
+                        <div class="before">
+                            <span class="label">Před</span>
+                            <img src="https://images.unsplash.com/photo-1562259949-e8e7689d7828?w=600&h=400&fit=crop" alt="Před malováním">
+                        </div>
+                        <div class="after">
+                            <span class="label">Po</span>
+                            <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&h=400&fit=crop" alt="Po malování">
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h4>Rekonstrukce bytu 3+kk</h4>
+                        <p><i class="fas fa-map-marker-alt"></i> Praha 4 - Nusle</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-project="kancelare">
+                    <div class="gallery-images">
+                        <div class="before">
+                            <span class="label">Před</span>
+                            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=400&fit=crop" alt="Před renovací">
+                        </div>
+                        <div class="after">
+                            <span class="label">Po</span>
+                            <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=600&h=400&fit=crop" alt="Po renovaci">
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h4>Kancelářské prostory</h4>
+                        <p><i class="fas fa-map-marker-alt"></i> Praha 5 - Smíchov</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-project="rodinny-dum">
+                    <div class="gallery-images">
+                        <div class="before">
+                            <span class="label">Před</span>
+                            <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&h=400&fit=crop" alt="Před malováním">
+                        </div>
+                        <div class="after">
+                            <span class="label">Po</span>
+                            <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=600&h=400&fit=crop" alt="Po malování">
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h4>Rodinný dům - kompletní rekonstrukce</h4>
+                        <p><i class="fas fa-map-marker-alt"></i> Říčany</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-project="fasada">
+                    <div class="gallery-images">
+                        <div class="before">
+                            <span class="label">Před</span>
+                            <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=600&h=400&fit=crop" alt="Před nátěrem">
+                        </div>
+                        <div class="after">
+                            <span class="label">Po</span>
+                            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&h=400&fit=crop" alt="Po nátěru">
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h4>Nátěr fasády RD</h4>
+                        <p><i class="fas fa-map-marker-alt"></i> Jesenice</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center" style="margin-top: 3rem;">
+                <a href="#kontakt" class="btn btn-primary">Chci podobnou realizaci</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials" id="reference">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Reference</span>
+                <h2 class="section-title">Co říkají naši klienti</h2>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Pan Novák a jeho tým odvedli skvělou práci. Malování bytu proběhlo rychle, čistě a výsledek předčil naše očekávání. Cena byla přesně podle dohody."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">PN</div>
+                        <div class="author-info">
+                            <h4>Petra Nováková</h4>
+                            <p><i class="fas fa-map-marker-alt"></i> Praha 10</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Výborná komunikace, dodržení termínu a precizní provedení. Malovali nám kanceláře o víkendu, abychom nepřerušili provoz. Všem doporučuji!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MS</div>
+                        <div class="author-info">
+                            <h4>Martin Svoboda</h4>
+                            <p><i class="fas fa-map-marker-alt"></i> Praha 5 - Smíchov</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text"> "Nátěr fasády našeho domu provedli s maximální pečlivostí. Poradili s výběrem barvy, která vydržela už 3 roky bez jediné vady. Profesionálové!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JK</div>
+                        <div class="author-info">
+                            <h4>Jan Král</h4>
+                            <p><i class="fas fa-map-marker-alt"></i> Říčany</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Jako SVJ jsme potřebovali vymalovat společné prostory v bytovém domě. Spolupráce byla bezproblémová, cena férová a výsledek výborný."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">IP</div>
+                        <div class="author-info">
+                            <h4>Ivan Procházka</h4>
+                            <p><i class="fas fa-map-marker-alt"></i> Praha 8 - Libeň</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="certifications">
+                <div class="cert-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>Pojištění odpovědnosti</span>
+                </div>
+                <div class="cert-item">
+                    <i class="fas fa-certificate"></i>
+                    <span>Certifikovaný řemeslník</span>
+                </div>
+                <div class="cert-item">
+                    <i class="fas fa-handshake"></i>
+                    <span>Člen Asociace malířů ČR</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="section pricing">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Ceník</span>
+                <h2 class="section-title">Orientační ceny</h2>
+                <p class="section-subtitle">Konečná cena závisí na stavu podkladů a specifikaci zakázky</p>
+            </div>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Malování interiéru</h3>
+                    <div class="price">od <span>85 Kč</span> / m²</div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Bílá barva (2 vrstvy)</li>
+                        <li><i class="fas fa-check"></i> Zakrytí podlah a nábytku</li>
+                        <li><i class="fas fa-check"></i> Drobné opravy podkladu</li>
+                    </ul>
+                    <p class="pricing-note">Barevné odstíny: +15 Kč/m²</p>
+                </div>
+                
+                <div class="pricing-card featured">
+                    <div class="badge-popular">Nejčastější</div>
+                    <h3>Kompletní rekonstrukce</h3>
+                    <div class="price">od <span>150 Kč</span> / m²</div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Škrábání starých nátěrů</li>
+                        <li><i class="fas fa-check"></i> Opravy prasklin a štuky</li>
+                        <li><i class="fas fa-check"></i> Penetrace a 2 vrstvy barvy</li>
+                        <li><i class="fas fa-check"></i> Úklid po realizaci</li>
+                    </ul>
+                    <p class="pricing-note">Včetně materiálu</p>
+                </div>
+                
+                <div class="pricing-card">
+                    <h3>Nátěry fasád</h3>
+                    <div class="price">od <span>120 Kč</span> / m²</div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Omytí fasády</li>
+                        <li><i class="fas fa-check"></i> Opravy spár a prasklin</li>
+                        <li><i class="fas fa-check"></i> 2 vrstvy fasádní barvy</li>
+                    </ul>
+                    <p class="pricing-note">Záruka 5 let</p>
+                </div>
+            </div>
+            
+            <div class="pricing-cta">
+                <p>Přesná cena závisí na stavu podkladů, výšce stropů a dalších faktorech.</p>
+                <a href="#kontakt" class="btn btn-primary btn-large">
+                    <i class="fas fa-calculator"></i>
+                    Získat přesnou kalkulaci
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section faq" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">FAQ</span>
+                <h2 class="section-title">Často kladené otázky</h2>
+            </div>
+            
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Jak dlouho trvá malování standardního bytu 2+kk?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Standardní byt 2+kk (cca 60 m²) vymalujeme za 2-3 dny v závislosti na stavu podkladů. První den probíhá příprava a zakrytí, druhý den malování a třetí den dokončovací práce a úklid.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Musím byt vyklidit před malováním?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Není nutné byt kompletně vyklízet. Postačí uvolnit prostor u zdí (odsunout nábytek cca 1 metr od stěn) a odstranit dekorace. Těžký nábytek přemístíme a zakryjeme ochrannými fóliemi. Drobnosti a cennosti doporučujeme uschovat.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Jaké barvy používáte?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Standardně používáme kvalitní interiérové barvy od renomovaných výrobců jako jsou Jupol, Primalex, Caparol nebo Benjamin Moore. Dle přání zákazníka jsme schopni dodat jakoukoli jinou značku. Vždy používáme materiály vhodné pro daný typ prostoru.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Poskytujete záruku na práci?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Ano, na veškeré naše práce poskytujeme záruku 24 měsíců na interiéry a 60 měsíců na fasády. Záruka se vztahuje na odštěpování barvy, praskání a další vady způsobené nesprávným provedením. Jsme pojištěni proti škodám na majetku.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Jaký je postup při objednávce?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Stačí nás kontaktovat telefonicky nebo emailem. Následně se domluvíme na osobním setkání a zaměření, které je zdarma a nezávazné. Po prohlídce vám do 24 hodin zašleme detailní cenovou nabídku. Po odsouhlasení termínu a ceny zakázku realizujeme.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Preview Section -->
+    <section class="section blog">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Blog</span>
+                <h2 class="section-title">Užitečné tipy a rady</h2>
+            </div>
+            
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1562259949-e8e7689d7828?w=600&h=300&fit=crop" alt="Příprava bytu">
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">5. března 2026</span>
+                        <h3>Jak připravit byt před malováním</h3>
+                        <p>Praktický návod, jak efektivně připravit prostor pro malíře a co všechno zařídit před jejich příjezdem...</p>
+                        <a href="#" class="blog-link">Číst více <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&h=300&fit=crop" alt="Výběr barev">
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">28. února 2026</span>
+                        <h3>Jak vybrat správnou barvu do interiéru</h3>
+                        <p>Psychologie barev, trendy pro rok 2026 a praktické tipy pro výběr odstínů do jednotlivých místností...</p>
+                        <a href="#" class="blog-link">Číst více <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=600&h=300&fit=crop" alt="Údržba fasády">
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">15. února 2026</span>
+                        <h3>Jak prodloužit životnost fasádního nátěru</h3>
+                        <p>Základní pravidla údržby fasády a jak poznat, že je čas na nový nátěr. Ušetřete peníze prevencí...</p>
+                        <a href="#" class="blog-link">Číst více <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="kontakt">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Kontakt</span>
+                <h2 class="section-title">Nezávazná poptávka</h2>
+                <p class="section-subtitle">Vyplňte formulář nebo nám zavolete. Ozveme se do 2 hodin.</p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Telefon</h3>
+                            <a href="tel:+420777123456" class="contact-link">+420 777 123 456</a>
+                            <p>Po-Pá: 8:00 - 18:00</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <a href="mailto:info@novakmalby.cz" class="contact-link">info@novakmalby.cz</a>
+                            <p>Odpovíme do 24 hodin</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Oblast působnosti</h3>
+                            <p>Praha a Středočeský kraj</p>
+                            <p class="text-small">Praha 1-10, Říčany, Jesenice, Čestlice a okolí</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-cta-box">
+                        <h4>Potřebujete rychlou kalkulaci?</h4>
+                        <p>Zavolejte nám přímo nebo nám napište na WhatsApp</p>
+                        <a href="https://wa.me/420777123456" class="btn btn-whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                            Napsat na WhatsApp
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm" action="#" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Jméno a příjmení *</label>
+                                <input type="text" id="name" name="name" required placeholder="Jan Novák">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Telefon *</label>
+                                <input type="tel" id="phone" name="phone" required placeholder="+420 777 123 456">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="jan.novak@email.cz">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Typ zakázky</label>
+                            <select id="service" name="service">
+                                <option value="">Vyberte typ zakázky</option>
+                                <option value="byt">Malování bytu/domu</option>
+                                <option value="kancelar">Malování kanceláří</option>
+                                <option value="fasada">Nátěr fasády</option>
+                                <option value="dvere">Nátěry dveří/oken</option>
+                                <option value="ostatni">Jiné</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Popis zakázky *</label>
+                            <textarea id="message" name="message" rows="4" required placeholder="Popište prosím váš projekt - velikost prostor, stav podkladů, termín realizace..."></textarea>
+                        </div>
+                        
+                        <div class="form-group checkbox">
+                            <input type="checkbox" id="consent" name="consent" required>
+                            <label for="consent">Souhlasím se zpracováním osobních údajů pro účely zpracování poptávky *</label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-large btn-full">
+                            <i class="fas fa-paper-plane"></i>
+                            Odeslat poptávku
+                        </button>
+                        
+                        <p class="form-note">* Pole označená hvězdičkou jsou povinná. Odpovíme vám do 2 hodin.</p>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d81981.14562267058!2d14.325542!3d50.059669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b939c0970798b%3A0x400af0f66164090!2sPraha!5e0!3m2!1scs!2scz!4v1709833600000!5m2!1scs!2scz" 
+                    width="100%" 
+                    height="400" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Mapa působnosti Praha a Středočeský kraj">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <i class="fas fa-paint-roller"></i>
+                        <span>Novák Malby & Nátěry</span>
+                    </a>
+                    <p>Profesionální malířské a natěračské práce s 15letou tradicí. Specializujeme se na kvalitu, čistotu a spolehlivost.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Služby</h4>
+                    <ul>
+                        <li><a href="#sluzby">Malování bytů</a></li>
+                        <li><a href="#sluzby">Komerční prostory</a></li>
+                        <li><a href="#sluzby">Nátěry fasád</a></li>
+                        <li><a href="#sluzby">Renovace dveří</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Užitečné odkazy</h4>
+                    <ul>
+                        <li><a href="#realizace">Realizace</a></li>
+                        <li><a href="#reference">Reference</a></li>
+                        <li><a href="#faq">Časté dotazy</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Kontakt</h4>
+                    <p><i class="fas fa-phone"></i> <a href="tel:+420777123456">+420 777 123 456</a></p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:info@novakmalby.cz">info@novakmalby.cz</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i> Praha a Středočeský kraj</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Novák Malby & Nátěry. Všechna práva vyhrazena.</p>
+                <div class="footer-legal">
+                    <a href="#">Ochrana osobních údajů</a>
+                    <a href="#">Obchodní podmínky</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating CTA -->
+    <div class="floating-cta">
+        <a href="tel:+420777123456" class="floating-btn phone" aria-label="Zavolat">
+            <i class="fas fa-phone"></i>
+        </a>
+        <a href="#kontakt" class="floating-btn message" aria-label="Napsat zprávu">
+            <i class="fas fa-envelope"></i>
+        </a>
+    </div>
+
+    <script>
+        // Mobile Navigation
+        const navToggle = document.getElementById('navToggle');
+        const navMenu = document.getElementById('navMenu');
+        
+        navToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            navToggle.classList.toggle('active');
+        });
+        
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                navToggle.classList.remove('active');
+            });
+        });
+        
+        // Sticky Header
+        const header = document.getElementById('header');
+        let lastScroll = 0;
+        
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+            
+            if (currentScroll > 100) {
+                header.classList.add('sticky');
+            } else {
+                header.classList.remove('sticky');
+            }
+            
+            lastScroll = currentScroll;
+        });
+        
+        // Smooth Scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+        
+        // FAQ Accordion
+        document.querySelectorAll('.faq-question').forEach(button => {
+            button.addEventListener('click', () => {
+                const faqItem = button.parentElement;
+                const isActive = faqItem.classList.contains('active');
+                
+                // Close all other items
+                document.querySelectorAll('.faq-item').forEach(item => {
+                    item.classList.remove('active');
+                    item.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+                });
+                
+                // Toggle current item
+                if (!isActive) {
+                    faqItem.classList.add('active');
+                    button.setAttribute('aria-expanded', 'true');
+                }
+            });
+        });
+        
+        // Form Submission
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            // Here you would normally send the form data to a server
+            alert('Děkujeme za vaši poptávku! Ozveme se vám do 2 hodin.');
+            this.reset();
+        });
+        
+        // Gallery Lightbox (simple implementation)
+        document.querySelectorAll('.gallery-item').forEach(item => {
+            item.addEventListener('click', function() {
+                // In a real implementation, this would open a lightbox
+                // For now, we'll just add a visual feedback
+                this.style.transform = 'scale(0.98)';
+                setTimeout(() => {
+                    this.style.transform = '';
+                }, 200);
+            });
+        });
+    </script>
+</body>
+</html>
